@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <title>Task 1</title>
+        <link rel = "stylesheet"; type = "text/css"; href = "question1.css" />
+    </head>
+    
+    
+    <body>     
+        <script type = "text/javascript"; src ="question1.js"></script>
+                
+        <div>
+            <table class = "tableStyle">
+                <caption> <h1>Input</h1></caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Date of birth</th>
+                    <th>Eye Color</th>
+                </tr>
+                
+                <tr> 
+                    <td> 
+                        <form> 
+                            <input ID = "name"> 
+                        </form> 
+                    </td>
+                    
+                    <td> <form> 
+                        <input type = "date"; ID = "dob"> 
+                        </form>
+                    </td>
+                    <td>
+                        <select ID = "eyeColour">
+                                <option value="blue">Blue</option>
+                                <option value="green">Green</option>
+                                <option value="brown">Brown</option>
+                                <option value="grey">Grey</option>
+                                <option value="other">Other</option>
+                        </select>
+                    </td>
+                
+                
+                </tr>
+            
+            
+            </table>
+            
+                    
+            <table id="inputTable"; class = "tableStyle"; style="margin-top: 50px";>
+                <caption id = "inputted"> <h1>Inputted Data, length = 0 </h1></caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Date of birth</th>
+                    <th>Eye Color</th>
+                    <th></th>
+                </tr>
+            
+            
+            
+            </table>
+            
+            
+            
+        
+        
+        </div>
+    
+    
+    
+        <input type="button"; onclick="addNewRow()"; value="display">
+        <input type ="button"; onclick="clearForm()"; value="reset" >
+        
+        
+        
+      
+        
+        
+        
+        
+        
+    </body>
+</html>

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+
+.tableStyle
+{
+    border-style:dashed;
+    width: 80%; 
+    
+}
+
+td
+{
+    padding: 5px;
+    text-align: left;
+    
+    
+    
+}
+
+tr:nth-child(odd)
+{
+    background-color: aqua;
+}
